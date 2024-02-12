@@ -1,0 +1,52 @@
+.bg-container {
+  background-image: linear-gradient(to right, #219a6f, #1d976c, #93f9b9);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: roboto;
+  overflow: auto;
+  flex-wrap: wrap;
+}
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 150px;
+  margin-right: 150px;
+  overflow: auto;
+  flex-wrap: wrap;
+}
+.style-heading {
+  color: #ffffff;
+  font-size: 40px;
+}
+.img-style {
+  height: 400px;
+  align-self: center;
+}
+.style-paragraph {
+  color: #ffffff;
+}
+.style-input {
+  border: solid #ffffff 1px;
+  background-color: transparent;
+  width: 300px;
+  height: 30px;
+  color: #ffffff;
+}
+.textCounter {
+  background-color: #ffffff;
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #219a6f;
+  font-weight: bold;
+  margin-top: 30px;
+  font-size: 20px;
+}
